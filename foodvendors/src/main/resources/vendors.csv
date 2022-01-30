@@ -1,0 +1,4 @@
+1,vendor1,description1
+2,vendor2,description2
+3,vendor3,description3
+4,,missing name - item will be ignored

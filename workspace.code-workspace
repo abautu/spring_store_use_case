@@ -1,0 +1,24 @@
+{
+	"folders": [
+    {
+      "path": "foodvendors"
+    },
+    {
+      "path": "eureka"
+    },
+    {
+      "path": "bank-accounts"
+    },
+    {
+      "path": "store-service"
+    },
+    {
+      "path": "gateway"
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": true
+  }
+}

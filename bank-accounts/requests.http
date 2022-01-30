@@ -1,0 +1,28 @@
+@baseURL = http://localhost:8081
+GET {{baseURL}}/accounts
+###
+GET {{baseURL}}/accounts/1
+###
+POST {{baseURL}}/accounts
+Content-Type: application/json
+
+{
+  "balance": 10,
+  "ownerId": 1
+}
+###
+GET {{baseURL}}/transactions
+###
+GET {{baseURL}}/transactions/1
+###
+GET {{baseURL}}/transactions/by-owner/2
+###
+POST {{baseURL}}/transactions
+Content-Type: application/json
+
+{
+  "sourceId": 1,
+  "destinationId": 2,
+  "amount": 2.0,
+  "description": "Sale of Pen"
+}

@@ -1,0 +1,39 @@
+###
+GET http://localhost:8080/vendors/vendors
+###
+GET http://localhost:8080/vendors/offers
+
+###
+GET http://localhost:8080/vendors/offers?keyword=3
+
+###
+GET http://localhost:8080/vendors/offers/1
+
+###
+GET http://localhost:8080/store/orders
+
+###
+GET http://localhost:8080/bank/transactions
+
+###
+GET http://localhost:8080/bank/accounts
+
+###
+POST http://localhost:8080/store/orders
+Content-Type: application/json
+
+{
+  "offer": 1,
+  "buyer": 1,
+  "quantity": 2
+}
+###
+POST http://localhost:8080/store/orders
+Content-Type: application/json
+
+{
+  "offer": 2,
+  "buyer": 2,
+  "quantity": 3
+}
+

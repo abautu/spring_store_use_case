@@ -1,0 +1,6 @@
+1,offer1,vendor1,description1,1
+2,offer2,vendor1,description2,2
+3,offer3,vendor3,description3,3
+4,,3,missing name - item will be ignored,4
+5,offer5,vendor4,invalid vendor id - item will be ignored,5
+6,offer6,vendor3,description6,6
